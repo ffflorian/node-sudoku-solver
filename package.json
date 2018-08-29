@@ -4,8 +4,8 @@
   "description": "Solve sudoku problems using Node.js and output the solution in the terminal",
   "main": "index.js",
   "dependencies": {
-    "simplesets": "*",
-    "sprintf": "*"
+    "simplesets": "1.2.0",
+    "sprintf-js": "1.1.1"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     },
     {
         "name": "@ffflorian",
-        "email": ""
+        "email": "github@floriankeller.de"
     }
   ],
   "license": "MIT",
@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/radubogdan/sudoku-solver",
   "devDependencies": {
-    "jasmine-node": "~1.14.3"
+    "jasmine-node": "1.15.0"
   }
 }

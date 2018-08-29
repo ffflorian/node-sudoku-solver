@@ -1,6 +1,6 @@
 // Dependencies
 var sets = require('simplesets')
-  , vsprintf = require('sprintf').vsprintf;
+  , vsprintf = require('sprintf-js').vsprintf;
 
 var sudokuSolver = {};
 
