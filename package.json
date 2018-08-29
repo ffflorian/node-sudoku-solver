@@ -23,7 +23,7 @@
   },
   "description": "Solve sudoku problems using Node.js and output the solution in the terminal",
   "devDependencies": {
-    "jasmine-node": "1.15.0"
+    "jasmine": "3.2.0"
   },
   "homepage": "https://github.com/radubogdan/sudoku-solver",
   "keywords": [
@@ -37,6 +37,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/radubogdan/sudoku-solver.git"
+  },
+  "scripts": {
+    "test": "jasmine"
   },
   "version": "0.0.3"
 }
