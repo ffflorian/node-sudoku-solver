@@ -1,42 +1,42 @@
 {
-  "name": "sudoku-solver",
-  "version": "0.0.3",
-  "description": "Solve sudoku problems using Node.js and output the solution in the terminal",
-  "main": "index.js",
+  "author": "Radu-Bogdan Croitoru",
+  "bugs": {
+    "url": "https://github.com/radubogdan/sudoku-solver/issues"
+  },
+  "contributors": [
+    {
+      "email": "croitoruradubogdan@gmail.com",
+      "name": "Radu-Bogdan Croitoru"
+    },
+    {
+      "email": "bizauionica@gmail.com",
+      "name": "Ionică Bizău"
+    },
+    {
+      "email": "github@floriankeller.de",
+      "name": "Florian Keller"
+    }
+  ],
   "dependencies": {
     "simplesets": "1.2.0",
     "sprintf-js": "1.1.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/radubogdan/sudoku-solver.git"
+  "description": "Solve sudoku problems using Node.js and output the solution in the terminal",
+  "devDependencies": {
+    "jasmine-node": "1.15.0"
   },
+  "homepage": "https://github.com/radubogdan/sudoku-solver",
   "keywords": [
     "solver",
     "sudoku",
     "problems"
   ],
-  "author": "Radu-Bogdan Croitoru",
-  "contributors": [
-    {
-        "name": "Radu-Bogdan Croitoru",
-        "email": "croitoruradubogdan@gmail.com"
-    },
-    {
-        "name": "Ionică Bizău",
-        "email": "bizauionica@gmail.com"
-    },
-    {
-        "name": "@ffflorian",
-        "email": "github@floriankeller.de"
-    }
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/radubogdan/sudoku-solver/issues"
+  "main": "index.js",
+  "name": "sudoku-solver",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radubogdan/sudoku-solver.git"
   },
-  "homepage": "https://github.com/radubogdan/sudoku-solver",
-  "devDependencies": {
-    "jasmine-node": "1.15.0"
-  }
+  "version": "0.0.3"
 }
